@@ -1,0 +1,52 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Music&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+  
+.fonte{
+    font-family: "Noto Music", system-ui;
+    font-weight: 550;
+    font-style: normal;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.custom-input {
+    border-radius: 1em;
+    height: 50px;
+}
+
+.custom-placeholder::placeholder {
+    text-align: center;
+    color: black;
+    font-size: small;
+
+}
+
+.btn-redondo {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+hr {
+    color: black;
+    border: none;
+    height: 2px;
+    width: 60px;
+    background: repeating-linear-gradient(
+        to right,
+        black,
+        black 10px, 
+        transparent 10px,
+        transparent 15px
+    );
+    margin: 30px 0;
+}
